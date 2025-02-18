@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f3f2;
+    font-size: 14px;
+}
+
+canvas {
+  width: 100% !important;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background: #f1f3f2;
+}
+
+.top-container {
+    background: #031224;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 10px;
+}
+
+.top-container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 14px;
+    border-bottom: 2px solid #1e293b;
+}
+
+.top-container .nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-container .nav .logo i {
+    color: #f1f3f2;
+    font-size: 24px;
+}
+
+.top-container .nav .logo a {
+    font-size: 16px;
+}
+
+.top-container .nav .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.top-container .nav .nav-links a {
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.top-container .nav .nav-links a:hover {
+    color: #fff;
+}
+
+.top-container .nav .right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-container .nav .right-section > i {
+    color: #f1f3f2;
+    background: #1e293b;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-container .nav .right-section .profile {
+    display: flex;
+    align-items: center;
+    background: #1e293b;
+    padding: 0 10px;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.top-container .nav .right-section .profile .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-container .nav .right-section .profile .info img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #f1f3f2;
+}
+
+.top-container .nav .right-section .profile .info a {
+    font-size: 13px;
+}
+
+.top-container .nav .right-section .profile .info  p {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.top-container .nav .right-section .profile > i {
+    color: #f1f3f2;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.top-container .status {
+    padding: 20px 20px 10px;
+}
+
+.top-container .status .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.top-container .status .header h4 {
+    color: #f1f3f2;
+    font-weight: 500;
+}
+
+.top-container .status .header h4#big {
+    flex: 3;
+}
+
+.top-container .status .header h4#small {
+    flex: 1;
+    padding-left: 90px;
+}
+
+.top-container .status .items-list {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.top-container .status .items-list .item {
+    background: #e0f2fe;
+    width: 25%;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.top-container .status .items-list .item:nth-child(2) {
+    background: #fffbeb;
+}
+
+.top-container .status .items-list .item:nth-child(3) {
+    background: #bfdbfe;
+}
+
+.top-container .status .items-list .item:nth-child(4) {
+    background: #031224;
+    padding: 10px;
+}
+

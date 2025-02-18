@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard Design | LehDev</title>
+</head>
+<body>
+
+    <div class="top-container">
+
+        <div class="nav">
+            <div class="logo">
+                <i class='bx bx-code-alt'></i>
+                <a href="#">LehDev</a>
+            </div>
+
+            <div class="nav-links">
+                <a href="#">Dashboard</a>
+                <a href="#">Statisticas</a>
+                <a href="#">Cursos</a>
+                <a href="#">Configurações</a>
+            </div>
+
+            <div class="right-section">
+                <i class='bx bx-bell'></i>
+                <i class='bx bx-search-alt-2' ></i>
+
+                <div class="profile">
+                    <div class="info">
+                    <img src="assets/Perfil.jpg" alt="">
+                    <div class="">
+                        <a href="#">Leandro Amaral</a>
+                        <p>Desenvolvedor Fullstack</p>
+                    </div>
+                    </div>
+                    <i class='bx bxs-chevron-down'></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="status">
+            <div class="header">
+                <h4 id="big">Seus cursos</h4>
+                <h4 id="samll">Atividades</h4>
+            </div>
+
+            <div class="items-list">
+                <div class="item">
+                    <div class="info">
+                        <div class="">
+                                <h5>Desenvolvimento Java</h5>
+                                <p>- Falta 3 aulas</p>
+                                <p>- Falta 1 projeto</p>
+                        </div>
+                        <i class='bx bxl-java' ></i>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="info">
+                        <div class="">
+                                <h5>React</h5>
+                                <p>- Falta 3 aulas</p>
+                                <p>- Falta 1 projeto</p>
+                        </div>
+                        <i class='bx bxl-react'></i>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="info">
+                        <div class="">
+                                <h5>Angular</h5>
+                                <p>- Falta 3 aulas</p>
+                                <p>- Falta 1 projeto</p>
+                        </div>
+                        <i class='bx bxl-angular' ></i>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <canvas class="activity-chart"></canvas>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
